@@ -5,10 +5,9 @@ body {
 	width: 90%;
 }
 
-p{
+p {
 	margin:10px;
 	padding:0px;
-
 }
 
 h1 { 
@@ -19,7 +18,7 @@ h3, .note {
 	text-decoration: underline;
 }
 
-a:link, a:visited, a:hover {
+a:hover, a:link, a:visited {
 	color: #3923D6;
 	text-decoration: none;
 }
@@ -45,14 +44,13 @@ img.pizzas {
 	display: block;
 	margin: auto;
 	margin-top: 5px;
-
 }
 
 img.birdy, img.logos, img.poven { 
 	float: left;
 }
 
-img.porder, img.ironman {
+img.ironman, img.porder {
 	float: right;
 }
 
@@ -65,7 +63,7 @@ img.birdy {
 	width: 25px;
 }
 
-nav li, li {
+li, nav li {
 	font-size: 18px;
 	list-style: none;
 }
@@ -77,6 +75,7 @@ nav li{
 nav li, nav.navbar ul {
 	display: inline-block;
 }
+
 nav.navbar li {
 	background-color: #D0E6FF;
 	border-radius: 15px;
@@ -86,10 +85,6 @@ nav.navbar ul {
 	margin: 10px;
 	padding: 0px;
 	width: 100%;
-}
-
-.price, .bolding {
-	font-weight: bold;
 }
 
 nav a:visited, nav a:link, nav a:hover {
@@ -113,13 +108,28 @@ blockquote:first-letter{
 	font-size: 150%;
 }
 
+.bolding, .price {
+	font-weight: bold;
+}
+
 .dawgpizza {
 	padding: 5px;
 }
 
-#wrapping {
-	background-image: url('http://students.washington.edu/jylcheng/info343/Homework1/img/flower.jpg');
-	height: 100%;
+#info, nav.navbar li, nav.navbar ul, .middle {
+	text-align: center;
+}
+
+#info, .dawgpizza {
+	margin: 0px;
+}
+
+.note {
+	color: #990000;
+}
+
+.pads {
+	padding: 10px;
 }
 
 .top {
@@ -129,18 +139,8 @@ blockquote:first-letter{
 	width: 100%;
 }
 
-.dawgpizza, #info {
-	margin: 0px;
+#wrapping {
+	background-image: url('http://students.washington.edu/jylcheng/info343/Homework1/img/flower.jpg');
+	height: 100%;
 }
 
-.pads {
-	padding: 10px;
-}
-
-.note {
-	color: #990000;
-}
-
-#info, nav.navbar li, nav.navbar ul, .middle {
-	text-align: center;
-}
